@@ -17,8 +17,6 @@ void printTenNumbers(int *arr)
 	exit(0);
 }
 
-
-
 int main()
 {
 	int *arr, i;

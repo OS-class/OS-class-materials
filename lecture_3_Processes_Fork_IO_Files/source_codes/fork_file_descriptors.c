@@ -17,6 +17,7 @@ int main(void)
 		exit(0);
 	} else {
 		int status;
+		printf("%d", &status);
 		wait(&status);
 		write(fd, "world\n", 6);
 	}
