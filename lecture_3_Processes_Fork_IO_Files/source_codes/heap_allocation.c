@@ -4,7 +4,6 @@
 #include <unistd.h>
 #include <sys/types.h>
 
-
 void printTenNumbers(int *arr)
 {
 	int i;
@@ -13,7 +12,7 @@ void printTenNumbers(int *arr)
 	{
 		printf("%d",arr[i]);
 	}
-	
+
 	exit(0);
 }
 
@@ -29,7 +28,7 @@ int main()
 		if (i == 7)
 		{
 		pid_t pid = fork();
-			
+
 			if (pid == 0)
 			{
 				printTenNumbers(arr);

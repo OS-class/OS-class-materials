@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 
-#define BUFSIZE 1024
+#define BUFSIZE 20
 
 int main(int argc, char *argv[])
 {
